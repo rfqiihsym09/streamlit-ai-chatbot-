@@ -1,0 +1,24 @@
+Cara pakai nya :
+Install paket:
+
+Set API key OpenAI
+
+Windows (PowerShell):
+
+$env:OPENAI_API_KEY="sk-..."
+
+Jalankan:
+
+streamlit run app.py
+
+Fitur utama yang sudah jadi
+
+UI chat modern pakai st.chat_message & st.chat_input.
+
+Sidebar: pilih model, atur temperature, system prompt, dan input API key.
+
+Fallback lokal (tanpa API key tetap jalan).
+
+Export riwayat chat ke JSON.
+
+Tema & styling dasar via .streamlit/config.toml.
